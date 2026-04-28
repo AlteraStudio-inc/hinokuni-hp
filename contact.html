@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社ひのくに | お問合せ</title>
+  <meta name="description" content="株式会社ひのくにのお問合せページです。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container header-shell">
+      <a class="brand" href="index.html" aria-label="株式会社ひのくに トップページ">
+        <span class="brand-mark">ひ</span>
+        <span class="brand-text">
+          <strong>株式会社ひのくに</strong>
+          <small>FORMWORK CARPENTRY / FORESTRY</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <div class="header-contact">
+          <a class="header-tel" href="tel:0967658598">0967-65-8598</a>
+          <a class="header-mail" href="contact.html">お問い合わせ</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="メニューを開く">MENU</button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション">
+        <a href="index.html"><span>TOP</span><small>TOP</small></a>
+        <a href="business.html"><span>BUSINESS</span><small>事業紹介</small></a>
+        <a href="company.html"><span>COMPANY</span><small>会社概要</small></a>
+        <a href="contact.html"><span>CONTACT</span><small>お問合せ</small></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-contact">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <p class="eyebrow">CONTACT</p>
+          <h1>ご相談・ご依頼は、こちらから。</h1>
+          <p>弊社へのお問い合わせは、お電話もしくは下記フォームから送信してください。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-side">
+          <img src="assets/business-forestry.png" alt="林業のイメージ">
+          <div class="contact-side-box">
+            <div class="section-heading">
+              <h2>お電話でのお問い合わせ</h2>
+              <span>PHONE</span>
+            </div>
+            <p>事務所：0967-65-8598</p>
+            <p>代表直通：090-8835-4252</p>
+          </div>
+          <div class="contact-side-box">
+            <div class="section-heading">
+              <h2>ご案内</h2>
+              <span>GUIDE</span>
+            </div>
+            <p>お問い合わせ内容を確認後、担当者より折り返しご連絡いたします。数日経っても折り返しがない場合は、お手数ですが再度お電話にてご連絡をお願いいたします。</p>
+          </div>
+        </aside>
+
+        <div class="contact-main">
+          <form class="contact-form contact-form-rich" id="contactForm" novalidate>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="name">お名前</label>
+                <input id="name" type="text" name="name" required>
+              </div>
+              <div class="form-row">
+                <label for="kana">ふりがな</label>
+                <input id="kana" type="text" name="kana" required>
+              </div>
+              <div class="form-row">
+                <label for="email">メールアドレス</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+              <div class="form-row">
+                <label for="tel">お電話番号</label>
+                <input id="tel" type="tel" name="tel" required>
+              </div>
+              <div class="form-row form-row-full">
+                <label for="address">ご住所</label>
+                <input id="address" type="text" name="address" required>
+              </div>
+              <div class="form-row form-row-full">
+                <label for="category">お問合せ項目</label>
+                <select id="category" name="category">
+                  <option value="ご相談">ご相談</option>
+                  <option value="お問い合わせ">お問い合わせ</option>
+                  <option value="ご依頼">ご依頼</option>
+                  <option value="求人">求人</option>
+                </select>
+              </div>
+              <div class="form-row form-row-full">
+                <label for="message">お問合せ内容</label>
+                <textarea id="message" name="message" rows="7"></textarea>
+              </div>
+            </div>
+            <button class="submit-button" type="submit">送信する</button>
+            <p class="form-note" id="formMessage" aria-live="polite"></p>
+          </form>
+
+          <div class="policy-box policy-box-clean">
+            <div class="section-heading">
+              <h2>個人情報の取り扱いについて</h2>
+              <span>PRIVACY POLICY</span>
+            </div>
+            <p>株式会社ひのくにでは、個人情報の取り扱いにつき、業務実態に応じた個人情報保護のための管理体制を確立するとともに、適切かつ慎重に取り扱いいたします。</p>
+            <p>弊社では、求人内容についてのお問い合わせ、その他お問い合わせに関して必要な範囲で個人情報を収集する場合がございます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-company">
+        <p class="footer-brand">株式会社ひのくに</p>
+        <p>〒869-1411 熊本県阿蘇郡南阿蘇村大字河陰381-2</p>
+        <p>営業時間 8:00～17:00 / 定休日 日曜日</p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="index.html">TOP</a>
+        <a href="business.html">事業紹介</a>
+        <a href="company.html">会社概要</a>
+        <a href="contact.html">お問合せ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

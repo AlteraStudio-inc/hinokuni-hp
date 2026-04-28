@@ -1,0 +1,18 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F4EDE4"/>
+  <rect y="620" width="900" height="280" fill="#DBCCB9"/>
+  <circle cx="310" cy="214" r="88" fill="#FFF2D6"/>
+  <circle cx="312" cy="300" r="76" fill="#F8FBF7"/>
+  <rect x="228" y="360" width="170" height="198" rx="42" fill="#5C705C"/>
+  <rect x="244" y="522" width="56" height="170" rx="28" fill="#304032"/>
+  <rect x="328" y="522" width="56" height="170" rx="28" fill="#304032"/>
+  <rect x="190" y="390" width="52" height="126" rx="24" fill="#304032"/>
+  <rect x="384" y="390" width="52" height="126" rx="24" fill="#304032"/>
+  <circle cx="592" cy="252" r="82" fill="#FFF2D6"/>
+  <circle cx="594" cy="330" r="70" fill="#F8FBF7"/>
+  <rect x="520" y="388" width="150" height="182" rx="40" fill="#8D5A33"/>
+  <rect x="536" y="538" width="48" height="154" rx="24" fill="#2C2520"/>
+  <rect x="608" y="538" width="48" height="154" rx="24" fill="#2C2520"/>
+  <path d="M682 444L776 398L758 492L682 540V444Z" fill="#CA9B64"/>
+  <rect x="146" y="118" width="230" height="20" rx="10" fill="#202020" fill-opacity="0.12"/>
+</svg>
